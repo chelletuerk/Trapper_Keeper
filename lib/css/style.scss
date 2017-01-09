@@ -1,0 +1,53 @@
+@import 'variables';
+
+body {
+  font-family: $sansFontStyle;
+  background-color: $bodyBGColor;
+  width: 75%;
+  text-align: center;
+  margin: auto;
+}
+
+button {
+  @include buttonStyles;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 22px;
+}
+
+.funds {
+  font-family: $serifFontStyle
+}
+.title {
+  font-size: 5em;
+  text-align: center;
+}
+
+.transaction-field {
+  margin: auto;
+}
+
+.transactions {
+  @include inputStyles;
+}
+
+.input-field {
+  display: inline-block;
+  margin: auto;
+  width: 80%;
+}
+
+.frequency-field {
+  display: inline-block;
+}
+
+.frequency-radio {
+  display: inline-block;
+  margin: 1vw;
+}
+
+.submit-button {
+  width: 73vw;
+}
